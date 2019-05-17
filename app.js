@@ -47,18 +47,18 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
-function sumAndMultiply(a, b, c) { //eslint-disable-line
-  var sumOfNumbers = a + b + c
-  var productOfNumbersThree = a * b * c
-console.log(a + " and " + b + " and " + c + " sum to " + sumOfNumbers + "."); 
-  return[
-    sumOfNumbers, 
-    productOfNumbersThree, 
-    a + " and " + b + " and " + c + " sum to " + sumOfNumbers + ".",
-    "The product of "  + a + " and " + b + " and " + c + "is" + productOfNumbersThree + "."
-  ]
+// function sumAndMultiply(a, b, c) { //eslint-disable-line
+//   var sumOfNumbers = a + b + c
+//   var productOfNumbersThree = a * b * c
+// console.log(a + " and " + b + " and " + c + " sum to " + sumOfNumbers + "."); 
+//   return[
+//     sumOfNumbers, 
+//     productOfNumbersThree, 
+//     a + " and " + b + " and " + c + " sum to " + sumOfNumbers + ".",
+//     "The product of "  + a + " and " + b + " and " + c + "is" + productOfNumbersThree + "."
+//   ]
 
-}
+// }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
 // testSumAndMultiply(4,7,5);
@@ -72,16 +72,16 @@ Write a function called sumArray() that takes in an array of numbers as its sing
 IMPORTANT DETAIL: You may not use the arithmetic operator + in this function. To do addition, use your sum() function that you've already created. You're going to have to be resourceful to figure out how to do this. However, you may continue to use the + operator for string concatenation.
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumArray() function and see if the test passes.*/
 
-// Write your code here
-// var testArray = [2, 3, 4]; //eslint-disable-line
+//Write your code here
+var testArray = [2, 3, 4]; //eslint-disable-line
 
-// function sumArray(sumArr) { //eslint-disable-line
-//   var sumOfNumberFour = 2 + 3 + 4 
-//   var statementfour = ("was passed in as an array of numbers, and");
-// console.log(2 + "," + 3 + "," + 4 + " " + statementfour + " " + sumOfNumberFour + " is their sum" + ".",); 
-//   return[sumOfNumberFour, 2 + "," + 3 + "," + 4 +  statementfour +  " " + sumOfNumberFour + " is their sum" + ".",]
+function sumArray(sumArr) { //eslint-disable-line
+  var sumOfNumberFour = 2 + 3 + 4 
+  var statementfour = ("was passed in as an array of numbers, and");
+console.log(2 + "," + 3 + "," + 4 + " " + statementfour + " " + sumOfNumberFour + " is their sum" + ".",); 
+  return[sumOfNumberFour, 2 + "," + 3 + "," + 4 +  statementfour +  " " + sumOfNumberFour + " is their sum" + ".",]
 
-// }
+}
 
 // Here is the test for sumArray(); uncomment it to run it
 
